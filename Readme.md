@@ -50,73 +50,74 @@ The collection is organized to guide readers from foundational theories to advan
 
 ### Foundational Theory and Introduction to Neural Networks
 
-1. **CS231n Convolutional Neural Networks for Visual Recognition**
+1. **[CS231n Convolutional Neural Networks for Visual Recognition](#27-cs231n-convolutional-neural-networks-for-visual-recognition)**
    - A comprehensive course from Stanford University that covers the basics of CNNs, architectures, and training techniques—a great starting point for learning visual recognition.
-2. **The Unreasonable Effectiveness of Recurrent Neural Networks**
+2. **[The Unreasonable Effectiveness of Recurrent Neural Networks](#4-the-unreasonable-effectiveness-of-recurrent-neural-networks)**
    - Emphasizes the powerful capabilities of RNNs in handling sequential data, further solidifying your understanding of RNNs.
-3. **Understanding LSTM Networks**
+3. **[Understanding LSTM Networks](#5-understanding-lstm-networks)**
    - Introduces LSTMs and their advantages in handling long-term dependencies, forming a foundation for understanding RNNs.
-4. **Recurrent Neural Network Regularization**
+4. **[Recurrent Neural Network Regularization](#6-recurrent-neural-network-regularization)**
    - Learn how to optimize RNNs and LSTMs by reducing overfitting through regularization techniques.
-5. **ImageNet Classification with Deep Convolutional Neural Networks**
+5. **[ImageNet Classification with Deep Convolutional Neural Networks](#9-imagenet-classification-with-deep-convolutional-neural-networks)**
    - Understand the basics of Convolutional Neural Networks (CNNs) and their applications in image recognition.
-6. **Deep Residual Learning for Image Recognition**
+6. **[Deep Residual Learning for Image Recognition](#12-deep-residual-learning-for-image-recognition)**
    - Learn how ResNet addresses training challenges in deep networks and enhances accuracy.
-7. **Multi-Scale Context Aggregation by Dilated Convolutions**
+7. **[Multi-Scale Context Aggregation by Dilated Convolutions](#13-multi-scale-context-aggregation-by-dilated-convolutions)**
    - Delve into using dilated convolutions in semantic segmentation tasks to achieve multi-scale context aggregation.
 
 ### Machine Translation and Natural Language Processing
 
-1. **Neural Machine Translation by Jointly Learning to Align and Translate**
+1. **[Neural Machine Translation by Jointly Learning to Align and Translate](#15-neural-machine-translation-by-jointly-learning-to-align-and-translate)**
    - Study the foundational models and alignment mechanisms in neural machine translation.
-2. **Attention Is All You Need** and **The Annotated Transformer**
+2. **[Attention Is All You Need](#1-attention-is-all-you-need)** and **[The Annotated Transformer](#2-the-annotated-transformer)**
    - Deeply understand the Transformer model's implementation details and code through practical explanations.
-3. **Pointer Networks**
+3. **[Pointer Networks](#8-pointer-networks)**
    - Learn about a new network structure that addresses variable-length output sequences, suitable for tasks like sorting and combinatorial optimization.
-4. **Scaling Laws for Neural Language Models**
+4. **[Scaling Laws for Neural Language Models](#23-scaling-laws-for-neural-language-models)**
    - Explore factors affecting the performance of large language models and their scaling laws.
 
 ### Deep Learning and Optimization
 
-1. **GPipe: Easy Scaling with Micro-Batch Pipeline Parallelism**
+1. **[GPipe: Easy Scaling with Micro-Batch Pipeline Parallelism](#11-gpipe-easy-scaling-with-micro-batch-pipeline-parallelism)**
    - Learn how to scale neural network capacity through micro-batch pipeline parallelism and understand parallel training techniques for large models.
-2. **Deep Speech 2: End-to-End Speech Recognition in English and Mandarin**
+2. **[Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](#22-deep-speech-2-end-to-end-speech-recognition-in-english-and-mandarin)**
    - Understand how to build and optimize end-to-end speech recognition systems, especially for handling different languages.
 
 ### Graph Structures and Relational Reasoning
 
-1. **Neural Message Passing for Quantum Chemistry**
+1. **[Neural Message Passing for Quantum Chemistry](#14-neural-message-passing-for-quantum-chemistry)**
    - Study the application of graph neural networks in quantum chemistry, a key to understanding supervised learning on graph data structures.
-2. **A Simple Neural Network Module for Relational Reasoning**
+2. **[A Simple Neural Network Module for Relational Reasoning](#17-a-simple-neural-network-module-for-relational-reasoning)**
    - Learn how to enhance existing neural networks with relational reasoning modules for unstructured input.
-3. **Relational Recurrent Neural Networks**
+3. **[Relational Recurrent Neural Networks](#19-relational-recurrent-neural-networks)**
    - Explore new memory modules that perform relational reasoning in sequential data, combining memory and reasoning.
 
 ### Generative Models and Complexity
 
-1. **Variational Lossy Autoencoder**
+1. **[Variational Lossy Autoencoder](#18-variational-lossy-autoencoder)**
    - Explore the combination of autoregressive models and variational autoencoders to achieve complex generative tasks.
-2. **The First Law of Complexodynamics**
+2. **[The First Law of Complexodynamics](#3-the-first-law-of-complexodynamics)**
    - Understand the evolution of complexity in physical systems and its relation to Kolmogorov complexity.
-3. **Kolmogorov Complexity and Algorithmic Randomness**
+3. **[Kolmogorov Complexity and Algorithmic Randomness](#26-kolmogorov-complexity-and-algorithmic-randomness)**
    - Learn Kolmogorov complexity theory and its applications in algorithmic randomness, laying the foundation for unsupervised learning.
-4. **Quantifying the Rise and Fall of Complexity in Closed Systems: The Coffee Automaton**
+4. **[Quantifying the Rise and Fall of Complexity in Closed Systems: The Coffee Automaton](#20-quantifying-the-rise-and-fall-of-complexity-in-closed-systems-the-coffee-automaton)**
    - Delve into the quantitative measurement of complexity in closed systems and understand the trend of complexity over time.
 
 ### Advanced Topics
 
-1. **Neural Turing Machines**
+1. **[Neural Turing Machines](#21-neural-turing-machines)**
    - Combine neural networks with the concept of Turing machines to expand your understanding of neural network architectures.
-2. **Identity Mappings in Deep Residual Networks**
+2. **[Identity Mappings in Deep Residual Networks](#16-identity-mappings-in-deep-residual-networks)**
    - Further study the internal mechanisms of ResNet and the importance of identity mappings in information propagation.
-3. **Order Matters: Sequence to Sequence for Sets**
+3. **[Order Matters: Sequence to Sequence for Sets](#10-order-matters-sequence-to-sequence-for-sets)**
    - Explore how to handle cases where inputs and outputs are not necessarily ordered sequences.
-4. **Keeping Neural Networks Simple by Minimizing the Description Length of the Weights**
+4. **[Keeping Neural Networks Simple by Minimizing the Description Length of the Weights](#7-keeping-neural-networks-simple-by-minimizing-the-description-length-of-the-weights)**
    - Learn how the Minimum Description Length principle applies to simplifying neural networks and balancing weight information content.
-5. **A Tutorial Introduction to the Minimum Description Length Principle**
+5. **[A Tutorial Introduction to the Minimum Description Length Principle](#24-a-tutorial-introduction-to-the-minimum-description-length-principle)**
    - Deepen your understanding of the MDL principle and its applications in model selection and data compression.
-6. **Machine Super Intelligence**
+6. **[Machine Super Intelligence](#25-machine-super-intelligence)**
    - Explore the concepts and research progress in machine superintelligence, understanding the definition of intelligence and its quantifiable standards.
+
 
 ---
 
