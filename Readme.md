@@ -4,7 +4,13 @@
 
 This document provides a curated list of essential papers and resources in the fields of deep learning and artificial intelligence. It is intended for researchers, students, and practitioners who wish to deepen their understanding of key concepts and advancements in these areas.
 
+Ref: Exclusive Q&A: John Carmack’s ‘Different Path’ to Artificial General Intelligence
 
+>"So I asked Ilya Sutskever, OpenAI’s chief scientist, for a reading list. He gave me a list of like 40 research papers and said, ‘If you really learn all of these, you’ll know 90% of what matters today.’ And I did. I plowed through all those things and it all started sorting out in my head."
+
+Ref: https://x.com/ID_AA_Carmack/status/1622673143469858816
+
+>I rather expected @ilyasut to have made a public post by now after all the discussion of the AI reading list he gave me. A canonical list of references from a leading figure would be appreciated by many. I would be curious myself about what he would add from the last three years.
 
 ## How to Read
 
