@@ -16,13 +16,13 @@ First, use the [Reading Order](#reading-order-1) section to understand the knowl
 
 ## Table of Contents
 
-- **[Reading Order](#reading-order-1)**
+### [Reading Order](#reading-order-1)
 
-- **[Reproduction Research](#reproduction-research-1)**
+### [Reproduction Research](#reproduction-research-1)
 
-- **[Full Paper List](#full-paper-list-1)**
+### [Full Paper List](#full-paper-list-1)
 
-- **[References](#references-1)**
+### [References](#references-1)
 ---
 
 
@@ -104,7 +104,8 @@ First, use the [Reading Order](#reading-order-1) section to understand the knowl
 
 ## Reproduction Research
 
-> **Note**: The reproduction of the code and detailed note for each paper are currently a work in progress. These sections will be updated in the `main` branch once finalized. Until then, you can find the basic information about each paper and follow progress through ongoing updates.
+> **Note**: The reproduction of the code and detailed notes for each paper are currently a work in progress. These sections will be updated in the `main` branch once finalized. Until then, you can find the basic information about each paper and follow our progress through ongoing updates.
+
 
 | Reproduced | Field                                  | Name                                                                 | Summary                                                                                                                      |    Note    |    Reproduction    |    Reference    |
 |:----------:|----------------------------------------|----------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|:-----------:|:------------------:|:---------------:|
