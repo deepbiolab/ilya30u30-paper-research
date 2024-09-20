@@ -2,60 +2,32 @@
 
 ## Purpose
 
-This document provides a curated list of essential papers and resources in the fields of deep learning and artificial intelligence. It is intended for researchers, students, and practitioners who wish to deepen their understanding of key concepts and advancements in these areas.
+This repo, inspired by the influential reading list recommended by Ilya Sutskever to John Carmack in 2020, curates and reproduces the essential AI and deep learning papers that shaped the field. Dubbed as the "ilya30u30," this collection represents the 27 papers that provide a comprehensive foundation and advanced insights into neural networks, generative models, optimization, and more. Each paper is  researched and reproduced, offering detailed notes and code implementations aimed at deepening the understanding of key concepts for researchers, students, and practitioners alike. Through reproduction, I aim to deepen my understanding of the implementation intricacies, validate the findings, and explore potential improvements. By sharing this work, I hope to provide valuable insights and foster further exploration in the deep learning community.
+
 
 
 ## How to Read
 
 The collection is organized to guide readers from foundational theories to advanced topics. Each entry includes a brief summary and a link to the original paper or resource. The suggested reading order at the end can help you navigate through the materials effectively.
 
+First, use the [Reading Order](#reading-order-1) section to understand the knowledge dependencies between the 27 papers. Then, explore the [Reproduction Research](#reproduction-research) section to delve deeper into the detailed studies, including reproductions and summaries of each paper.
+
 
 
 ## Table of Contents
 
 ### [Reading Order](#reading-order-1)
-- [Foundational Theory and Introduction to Neural Networks](#foundational-theory-and-introduction-to-neural-networks)
-- [Machine Translation and Natural Language Processing](#machine-translation-and-natural-language-processing)
-- [Deep Learning and Optimization](#deep-learning-and-optimization)
-- [Graph Structures and Relational Reasoning](#graph-structures-and-relational-reasoning)
-- [Generative Models and Complexity](#generative-models-and-complexity)
-- [Advanced Topics](#advanced-topics)
 
-### [Paper List](#paper-list-1)
-1. [Attention Is All You Need](#1-attention-is-all-you-need)
-2. [The Annotated Transformer](#2-the-annotated-transformer)
-3. [The First Law of Complexodynamics](#3-the-first-law-of-complexodynamics)
-4. [The Unreasonable Effectiveness of Recurrent Neural Networks](#4-the-unreasonable-effectiveness-of-recurrent-neural-networks)
-5. [Understanding LSTM Networks](#5-understanding-lstm-networks)
-6. [Recurrent Neural Network Regularization](#6-recurrent-neural-network-regularization)
-7. [Keeping Neural Networks Simple by Minimizing the Description Length of the Weights](#7-keeping-neural-networks-simple-by-minimizing-the-description-length-of-the-weights)
-8. [Pointer Networks](#8-pointer-networks)
-9. [ImageNet Classification with Deep Convolutional Neural Networks](#9-imagenet-classification-with-deep-convolutional-neural-networks)
-10. [Order Matters: Sequence to Sequence for Sets](#10-order-matters-sequence-to-sequence-for-sets)
-11. [GPipe: Easy Scaling with Micro-Batch Pipeline Parallelism](#11-gpipe-easy-scaling-with-micro-batch-pipeline-parallelism)
-12. [Deep Residual Learning for Image Recognition](#12-deep-residual-learning-for-image-recognition)
-13. [Multi-Scale Context Aggregation by Dilated Convolutions](#13-multi-scale-context-aggregation-by-dilated-convolutions)
-14. [Neural Message Passing for Quantum Chemistry](#14-neural-message-passing-for-quantum-chemistry)
-15. [Neural Machine Translation by Jointly Learning to Align and Translate](#15-neural-machine-translation-by-jointly-learning-to-align-and-translate)
-16. [Identity Mappings in Deep Residual Networks](#16-identity-mappings-in-deep-residual-networks)
-17. [A Simple Neural Network Module for Relational Reasoning](#17-a-simple-neural-network-module-for-relational-reasoning)
-18. [Variational Lossy Autoencoder](#18-variational-lossy-autoencoder)
-19. [Relational Recurrent Neural Networks](#19-relational-recurrent-neural-networks)
-20. [Quantifying the Rise and Fall of Complexity in Closed Systems: The Coffee Automaton](#20-quantifying-the-rise-and-fall-of-complexity-in-closed-systems-the-coffee-automaton)
-21. [Neural Turing Machines](#21-neural-turing-machines)
-22. [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](#22-deep-speech-2-end-to-end-speech-recognition-in-english-and-mandarin)
-23. [Scaling Laws for Neural Language Models](#23-scaling-laws-for-neural-language-models)
-24. [A Tutorial Introduction to the Minimum Description Length Principle](#24-a-tutorial-introduction-to-the-minimum-description-length-principle)
-25. [Machine Super Intelligence](#25-machine-super-intelligence)
-26. [Kolmogorov Complexity and Algorithmic Randomness](#26-kolmogorov-complexity-and-algorithmic-randomness)
-27. [CS231n Convolutional Neural Networks for Visual Recognition](#27-cs231n-convolutional-neural-networks-for-visual-recognition)
+### [Reproduction Research](#reproduction-research-1)
+
+### [Full Paper List](#full-paper-list-1)
 
 ### [References](#references-1)
 ---
 
 
 
-## Reading Order:
+## Reading Order
 
 ### Foundational Theory and Introduction to Neural Networks
 
@@ -132,8 +104,6 @@ The collection is organized to guide readers from foundational theories to advan
 
 ## Reproduction Research
 
-## Paper Reproduction Status
-
 | Reproduced | Field                                  | Name                                                                 | Summary                                                                                                                      |    Note    |    Reproduction    |    Reference    |
 |:----------:|----------------------------------------|----------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|:-----------:|:------------------:|:---------------:|
 |            | Foundational Theory and Neural Networks | [CS231n Convolutional Neural Networks for Visual Recognition](#27-cs231n-convolutional-neural-networks-for-visual-recognition) | A comprehensive course from Stanford University that covers the basics of CNNs, architectures, and training techniques—a great starting point for learning visual recognition. | [note](notes/27-CS231n%20Convolutional%20Neural%20Networks%20for%20Visual%20Recognition.md) | [code](codes/27-cs231n-convolutional-neural-networks-for-visual-recognition) | [citation](https://cs231n.github.io/) |
@@ -165,9 +135,10 @@ The collection is organized to guide readers from foundational theories to advan
 |            | Advanced Topics                       | [Machine Super Intelligence](#25-machine-super-intelligence)         | Explore the concepts and research progress in machine superintelligence, understanding the definition of intelligence and its quantifiable standards. | [note](notes/25-Machine_Super_Intelligence.md) | [code](codes/25-machine-super-intelligence) | [citation](https://www.vetta.org/documents/Machine_Super_Intelligence.pdf) |
 
 
+---
 
 
-## Paper List
+## Full Paper List
 
 ### 1) Attention Is All You Need
 
@@ -389,7 +360,7 @@ Link: https://cs231n.github.io/
 
 ---
 
-## References:
+## References
 
 Ref: Exclusive Q&A: John Carmack’s ‘Different Path’ to Artificial General Intelligence
 
