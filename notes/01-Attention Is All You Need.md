@@ -1,4 +1,5 @@
-# [Attention Is All You Need](../01-Attention Is All You Need.pdf)
+# [Attention Is All You Need](../01-Attention%20Is%20All%20You%20Need.pdf)
+
 
 ## **Dataset and Preprocessing:**
 
@@ -121,9 +122,7 @@
 
 - **Formula:**
 
-  $$
-  \text{Attention}(Q, K, V) = \text{softmax}\left( \frac{Q K^\top}{\sqrt{d_k}} \right) V
-  $$
+  $$\text{Attention}(Q, K, V) = \text{softmax}\left( \frac{Q K^\top}{\sqrt{d_k}} \right) V$$
 
 - **Definitions:**
   - **$Q$ (Queries):** Matrix of query vectors.
@@ -145,12 +144,9 @@
 
 - **Formula:**
 
-  $$
-  \begin{align*}
-  \text{MultiHead}(Q, K, V) &= \text{Concat}(\text{head}_1, \dotsc, \text{head}_h) W^O \\
-  \text{where head}_i &= \text{Attention}(Q W_i^Q, K W_i^K, V W_i^V)
-  \end{align*}
-  $$
+  $$\text{MultiHead}(Q, K, V) = \text{Concat}(\text{head}_1, \dotsc, \text{head}_h) W^O$$
+
+  $$\text{where head}_i = \text{Attention}(Q W_i^Q, K W_i^K, V W_i^V)$$
 
 - **Definitions:**
   - **$W_i^Q$, $W_i^K$, $W_i^V$:** Projection matrices for queries, keys, and values.
@@ -181,9 +177,7 @@
 
 - **Formula:**
 
-  $$
-  \text{FFN}(x) = \text{max}(0, x W_1 + b_1) W_2 + b_2
-  $$
+  $$\text{FFN}(x) = \text{max}(0, x W_1 + b_1) W_2 + b_2$$
 
 - **Definitions:**
   - **$x$:** Input vector.
@@ -206,12 +200,9 @@
 
 - **Formula:**
 
-  $$
-  \begin{align*}
-  \text{PE}_{(pos, 2i)} &= \sin\left( \frac{pos}{10000^{2i / d_{\text{model}}}} \right) \\
-  \text{PE}_{(pos, 2i+1)} &= \cos\left( \frac{pos}{10000^{2i / d_{\text{model}}}} \right)
-  \end{align*}
-  $$
+  $${PE}_{(pos, 2i)} = \sin\left( \frac{pos}{10000^{\frac{2i}{d_{{model}}}}} \right)$$
+
+  $${PE}_{(pos, 2i+1)} = \cos\left( \frac{pos}{10000^{\frac{2i}{d_{{model}}}}} \right)$$
 
 - **Definitions:**
   - **$pos$:** Position index in the sequence.
@@ -299,9 +290,7 @@ Probabilities = Softmax(Logits)
   - Used in the attention mechanism to compute attention weights.
   - Formula:
 
-    $$
-    \text{softmax}(z_i) = \frac{\exp(z_i)}{\sum_{j} \exp(z_j)}
-    $$
+    $$\text{softmax}(z_i) = \frac{\exp(z_i)}{\sum_{j} \exp(z_j)}$$
 
 - **Purpose and Impact:**
 
@@ -319,9 +308,7 @@ Probabilities = Softmax(Logits)
   - Measures the difference between the predicted probability distribution and the true distribution.
   - Formula:
 
-    $$
-    \mathcal{L} = -\sum_{i} y_i \log(\hat{y}_i)
-    $$
+    $$\mathcal{L} = -\sum_{i} y_i \log(\hat{y}_i)$$
 
   - **Where:**
     - $y_i$: True distribution (one-hot encoded).
@@ -340,14 +327,12 @@ Probabilities = Softmax(Logits)
 
   - Formula:
 
-    $$
-    \text{lrate} = d_{\text{model}}^{-0.5} \cdot \min\left(\text{step\_num}^{-0.5}, \text{step\_num} \cdot \text{warmup\_steps}^{-1.5}\right)
-    $$
+    $$lrate = d_{\mathrm{model}}^{-0.5} \cdot \min\left(\mathrm{step\_num}^{-0.5}, \ \mathrm{step\_num} \cdot \mathrm{warmup\_steps}^{-1.5}\right)$$
 
   - **Definitions:**
-    - **$d_{\text{model}}$:** Model dimension (512).
-    - **$\text{step\_num}$:** Current training step.
-    - **$\text{warmup\_steps}$:** Number of warmup steps (4000).
+    - $d_{\mathrm{model}}$: Model dimension (512).
+    - $\mathrm{step\_num}$: Current training step.
+    - $\mathrm{warmup\_steps}$: Number of warmup steps (4000).
 
 - **Purpose and Impact:**
 
