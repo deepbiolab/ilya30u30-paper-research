@@ -1,4 +1,4 @@
-# Ilya30u30 Research
+# Ilya30u30 Paper Research
 
 ## Purpose
 
@@ -10,7 +10,7 @@ This repo, inspired by the influential reading list recommended by Ilya Sutskeve
 
 The collection is organized to guide readers from foundational theories to advanced topics. Each entry includes a brief summary and a link to the original paper or resource. The suggested reading order at the end can help you navigate through the materials effectively.
 
-First, use the [Reading Order](#reading-order-1) section to understand the knowledge dependencies between the 27 papers. Then, explore the [Reproduction Research](#reproduction-research) section to delve deeper into the detailed studies, including reproductions and summaries of each paper.
+First, use the [Reading Order](#reading-order-1) section to understand the knowledge dependencies between the 27 papers. Then, explore the [Reproduction Research](#reproduction-research-1) section to delve deeper into the detailed studies, including reproductions and summaries of each paper.
 
 
 
